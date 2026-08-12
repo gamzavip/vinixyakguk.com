@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="/img/7.webp">
-  
+    
     <!-- 필수 SEO 메타 태그 -->
-    <!-- 구글은 사용자의 검색 의도와 정확히 일치하고 클릭을 유도하는 50~60자의 제목을 선호합니다. -->
     <title>비닉스(Vinix) 필름형 공식 스토어 | 구매방법 및 가격 안내</title>
-    <!-- 150~160자 내외로 페이지의 핵심 내용을 요약하고 CTA(행동 유도)를 포함합니다. -->
-    <meta name="description" content="비닉스 필름형, 센트립 구매 및 판매하는곳. 확실한 효과와 실제 디시 후기를 확인하세요. 안전한 주문 사이트 제공.">
+    <meta name="description" content="비닉스 필름형, 센트립 구매방법 및 가격 안내. 확실한 효과와 실제 디시 후기를 확인하세요. 안전한 주문 사이트 제공.">
     <meta name="keywords" content="비닉스, 센트립, 필름형, 구매, 구매방법, 가격, 후기 디시">
     
-    <!-- 캐노니컬 URL: 중복 콘텐츠 문제를 방지하고 검색 엔진에 원본 페이지를 알려줍니다. -->
+    <!-- 파비콘 추가 -->
+    <link rel="icon" type="image/png" href="/img/7.webp">
+
+    <!-- 캐노니컬 URL -->
     <link rel="canonical" href="https://vinixyakguk.com/">
 
     <!-- Open Graph (소셜 미디어 공유 최적화) -->
@@ -22,41 +22,117 @@
     <meta property="og:description" content="남성을 위한 프리미엄 활력 영양제 비닉스. 믿을 수 있는 성분과 실제 고객 후기를 확인하세요.">
     <meta property="og:image" content="https://vinixyakguk.com/img/Gemini_Generated_Image_yjd952yjd952yjd9.webp">
 
-    <!-- Schema.org 구조화된 데이터 (JSON-LD) -->
-    <!-- 구글 검색 결과에서 리치 스니펫(별점, 가격 등)으로 표시될 확률을 높여주는 매우 중요한 SEO 기법입니다. -->
+    <!-- 전문가용 통합 JSON-LD 구조화 데이터 (WebSite, Organization, Product, FAQPage) -->
     <script type="application/ld+json">
     {
-      "@context": "https://schema.org/",
-      "@type": "Product",
-      "name": "비닉스(Vinix) 프리미엄 영양제",
-      "image": [
-        "https://vinixyakguk.com/img/7.webp"
-       ],
-      "description": "남성을 위한 고함량 활력 건강기능식품입니다.",
-      "brand": {
-        "@type": "Brand",
-        "name": "Vinix"
-      },
-      "offers": {
-        "@type": "AggregateOffer",
-        "url": "https://vinixyakguk.com/",
-        "priceCurrency": "KRW",
-        "lowPrice": "35000",
-        "highPrice": "90000",
-        "offerCount": "3"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.8",
-        "reviewCount": "1250"
-      }
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://vinixyakguk.com/#website",
+          "url": "https://vinixyakguk.com/",
+          "name": "비닉스(Vinix) 필름형 공식 스토어",
+          "description": "비닉스 필름형, 센트립 구매방법 및 가격 안내. 확실한 효과와 실제 디시 후기를 확인하세요.",
+          "publisher": {
+            "@id": "https://vinixyakguk.com/#organization"
+          }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://vinixyakguk.com/#organization",
+          "name": "VINIX Health Lab",
+          "url": "https://vinixyakguk.com/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://vinixyakguk.com/img/7.webp"
+          },
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "1588-0000",
+            "contactType": "customer service",
+            "areaServed": "KR",
+            "availableLanguage": "Korean"
+          }
+        },
+        {
+          "@type": "Product",
+          "@id": "https://vinixyakguk.com/#product",
+          "name": "비닉스(Vinix) 프리미엄 필름형 영양제",
+          "image": [
+            "https://vinixyakguk.com/img/7.webp"
+          ],
+          "description": "남성을 위한 고함량 활력 건강기능식품 및 필름형 제품입니다.",
+          "brand": {
+            "@type": "Brand",
+            "name": "Vinix"
+          },
+          "offers": {
+            "@type": "AggregateOffer",
+            "url": "https://vinixyakguk.com/",
+            "priceCurrency": "KRW",
+            "lowPrice": "180000",
+            "highPrice": "180000",
+            "offerCount": "2"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "1250"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Q. 구매방법은 어떻게 되나요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "본 페이지 상단 혹은 하단에 있는 '구매하기' 영역에서 원하시는 제품(비닉스 또는 센트립)의 주문 버튼을 클릭하시면 공식 주문 페이지로 연결됩니다. 해당 페이지에서 배송지 정보를 입력하시고 안전하게 결제를 진행하시면 됩니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Q. 배송은 얼마나 걸리며, 비밀 포장이 되나요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "오후 3시 이전 결제 완료 건에 한해 당일 발송을 원칙으로 하며, 보통 1~2일 내에 수령 가능합니다. 또한 고객님의 프라이버시를 완벽히 보호하기 위해 박스 겉면에는 내용물을 알 수 없도록 '사무용품' 또는 '화장품' 등으로 기재하여 삼중 비밀 포장으로 발송됩니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Q. 비닉스와 센트립 중 어떤 제품을 선택해야 할까요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "빠르고 강력한 한 방이 필요하시다면 '비닉스'를, 오랜 시간 동안 자연스럽고 부드러운 효과 유지를 원하신다면 '센트립'을 추천해 드립니다. 두 제품 모두 필름형으로 휴대가 간편하며 물 없이 섭취 가능합니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Q. 음주 후 섭취해도 괜찮은가요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "가벼운 반주 정도는 크게 무리가 없으나, 과도한 음주 후 섭취는 약효를 떨어뜨리거나 어지러움, 두통 등 부작용을 유발할 수 있습니다. 가장 좋은 효과를 보시려면 공복 상태나 식후 1~2시간이 지난 후 섭취하는 것이 좋습니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Q. 유통기한은 얼마나 되나요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "발송해 드리는 모든 제품은 제조일로부터 2~3년의 넉넉한 유통기한을 가진 최신 정품입니다. 직사광선을 피해 서늘하고 건조한 곳에 보관해 주시면 제품의 변질 없이 오래 안전하게 섭취하실 수 있습니다."
+              }
+            }
+          ]
+        }
+      ]
     }
     </script>
 
-    <!-- Tailwind CSS (빠른 로딩과 모바일 최적화 반응형 디자인을 위해 사용) -->
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     
-    <!-- 구글 웹 폰트 (가독성이 높고 모던한 느낌의 Noto Sans KR 적용) -->
+    <!-- 구글 웹 폰트 -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
@@ -66,7 +142,6 @@
             font-family: 'Noto Sans KR', sans-serif;
             -webkit-font-smoothing: antialiased;
         }
-        /* 페이드인 애니메이션 (UX 향상) */
         .fade-in-up {
             animation: fadeInUp 0.8s ease-out forwards;
             opacity: 0;
@@ -85,53 +160,58 @@
 </head>
 <body class="bg-gray-50 text-gray-800">
 
-    <!-- 시맨틱 태그: header -->
+    <!-- 헤더 (메뉴 오른쪽 배치 및 모바일 햄버거 토글 추가) -->
     <header class="bg-white shadow-sm sticky top-0 z-50">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-16">
-                <!-- 로고 (홈으로 이동하는 링크) -->
+                <!-- 로고 -->
                 <div class="flex-shrink-0 flex items-center">
                     <a href="#" class="text-2xl font-black text-blue-600 tracking-tighter">VINIX</a>
                 </div>
-                <!-- 네비게이션 -->
-                <nav class="hidden md:flex space-x-8">
-                    <a href="#info" class="text-gray-600 hover:text-blue-600 font-medium transition-colors">효과 및 주의사항</a>
-                    <a href="#comparison" class="text-gray-600 hover:text-blue-600 font-medium transition-colors">제품 비교</a>
-                    <a href="#purchase" class="text-gray-600 hover:text-blue-600 font-medium transition-colors">가격·구매방법</a>
-                    <a href="#reviews" class="text-gray-600 hover:text-blue-600 font-medium transition-colors">리얼 후기</a>
-                    <a href="#faq" class="text-gray-600 hover:text-blue-600 font-medium transition-colors">자주 묻는 질문</a>
-                </nav>
-                <div class="md:flex items-center">
+                
+                <!-- 데스크톱 네비게이션 (오른쪽 배치) -->
+                <div class="hidden md:flex items-center space-x-8 ml-auto">
+                    <nav class="flex space-x-8">
+                        <a href="https://vinixyakguk.com/#comparison" class="text-gray-600 hover:text-blue-600 font-medium transition-colors">제품비교</a>
+                        <a href="/blog" class="text-gray-600 hover:text-blue-600 font-medium transition-colors">블로그</a>
+                        <a href="https://vinixyakguk.com/#faq" class="text-gray-600 hover:text-blue-600 font-medium transition-colors">자주 묻는 질문</a>
+                    </nav>
                     <a href="#purchase" class="bg-blue-600 text-white px-5 py-2 rounded-full font-bold hover:bg-blue-700 transition-colors shadow-md">구매하기</a>
+                </div>
+
+                <!-- 모바일 햄버거 버튼 -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-button" class="text-gray-600 hover:text-gray-900 focus:outline-none p-2" aria-label="메뉴 열기">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
                 </div>
             </div>
         </div>
+
+        <!-- 모바일 메뉴 드롭다운 -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-gray-200 px-4 pt-2 pb-4 space-y-3">
+            <a href="https://vinixyakguk.com/#comparison" class="block text-gray-600 hover:text-blue-600 font-medium py-2">제품비교</a>
+            <a href="/blog" class="block text-gray-600 hover:text-blue-600 font-medium py-2">블로그</a>
+            <a href="https://vinixyakguk.com/#faq" class="block text-gray-600 hover:text-blue-600 font-medium py-2">자주 묻는 질문</a>
+            <a href="#purchase" class="block text-center bg-blue-600 text-white px-5 py-2 rounded-full font-bold hover:bg-blue-700 transition-colors shadow-md mt-2">구매하기</a>
+        </div>
     </header>
 
-    <!-- 시맨틱 태그: main -->
     <main>
-        <!-- Hero Section (첫인상, H1 태그 포함) -->
-        <section class="relative bg-gradient-to-br from-blue-50 to-white pt-20 pb-32 overflow-hidden">
+        <!-- Hero Section (높이 수정 및 버튼 제거) -->
+        <section class="relative bg-gradient-to-br from-blue-50 to-white pt-12 pb-16 overflow-hidden">
             <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
-                <span class="inline-block py-1 px-3 rounded-full bg-blue-100 text-blue-700 font-semibold text-sm mb-6 fade-in-up">간편한 필름형으로 언제 어디서나</span>
-                <!-- H1 태그는 페이지당 1개만 사용하며 핵심 키워드를 포함해야 합니다. -->
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-black text-gray-900 tracking-tight mb-6 leading-tight fade-in-up delay-100">
+                <span class="inline-block py-1 px-3 rounded-full bg-blue-100 text-blue-700 font-semibold text-sm mb-4 fade-in-up">간편한 필름형으로 언제 어디서나</span>
+                <h1 class="text-3xl md:text-5xl lg:text-6xl font-black text-gray-900 tracking-tight mb-4 leading-tight fade-in-up delay-100">
                     지치지 않는 일상의 시작,<br>
                     <span class="text-blue-600">비닉스(VINIX)</span> 필름형
                 </h1>
-                <p class="mt-4 max-w-2xl text-lg md:text-xl text-gray-600 mx-auto mb-10 fade-in-up delay-200">
+                <p class="mt-3 max-w-2xl text-base md:text-xl text-gray-600 mx-auto fade-in-up delay-200">
                     바쁜 현대 남성을 위해 엄선된 성분으로 꽉 채웠습니다. 하루 한 장 필름형으로 간편하게 활력을 충전하세요.
                 </p>
-                <div class="flex justify-center gap-4 fade-in-up delay-300">
-                    <a href="#purchase" class="bg-blue-600 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-blue-700 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
-                        구매하기
-                    </a>
-                    <a href="#reviews" class="bg-white text-gray-700 border border-gray-300 px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-50 transition-all">
-                        리얼 후기 보기
-                    </a>
-                </div>
             </div>
-            <!-- 장식용 배경 요소 -->
             <div class="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 rounded-full bg-blue-100 opacity-50 blur-3xl z-0"></div>
             <div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-72 h-72 rounded-full bg-blue-50 opacity-50 blur-2xl z-0"></div>
         </section>
@@ -140,7 +220,6 @@
         <section id="info" class="py-20 bg-white">
             <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center mb-16">
-                    <!-- H2 태그: 논리적인 구조를 위한 헤딩 -->
                     <h2 class="text-3xl font-bold text-gray-900 mb-4">제품 효과 및 부작용 / 주의사항</h2>
                     <p class="text-lg text-gray-600">올바른 섭취를 위해 반드시 확인해 주세요.</p>
                 </div>
@@ -174,7 +253,7 @@
             </div>
         </section>
 
-        <!-- 비닉스 vs 센트립 비교 섹션 -->
+        <!-- 비닉스 vs 센트립 비교 섹션 (대표 이미지 하나 포함) -->
         <section id="comparison" class="py-20 bg-gray-50">
             <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center mb-16">
@@ -182,13 +261,11 @@
                     <p class="text-lg text-gray-600">대표적인 필름형 두 제품의 차이점을 확인하고 나에게 맞는 제품을 선택하세요.</p>
                 </div>
                 
-                <!-- 단일 대표 이미지 추가 -->
                 <div class="mb-12">
-                    <img src="/img/Gemini_Generated_Image_yjd952yjd952yjd9.webp" alt="비닉스 센트립 비교" class="w-full object-cover rounded-3xl shadow-lg border border-gray-200">
+                    <img src="/img/Gemini_Generated_Image_yjd952yjd952yjd9.webp" alt="비닉스 센트립 비교" class="w-full h-64 md:h-[400px] object-cover rounded-3xl shadow-lg border border-gray-200" onerror="this.src='https://placehold.co/1200x450/e5e7eb/6b7280?text=VINIX+vs+CENTRIP+Comparison'">
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
-                    <!-- 비닉스 카드 (기존 이미지 제거됨) -->
                     <div class="bg-white rounded-3xl shadow-md overflow-hidden border-t-4 border-blue-600 p-8 hover:shadow-lg transition-shadow">
                         <div class="mb-6">
                             <h3 class="text-2xl font-black text-blue-600 mb-2">비닉스 (VINIX)</h3>
@@ -199,18 +276,17 @@
                                 <svg class="w-6 h-6 text-blue-500 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
                                 <span class="text-gray-700"><strong>효과 발현:</strong> 섭취 후 빠르게 흡수되어 단시간 내 강력한 반응</span>
                             </li>
-                                <li class="flex items-start">
-                                    <svg class="w-6 h-6 text-blue-500 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                                    <span class="text-gray-700"><strong>지속 시간:</strong> 약 4~6시간 내외 (강렬하고 짧은 효과)</span>
-                                </li>
-                                <li class="flex items-start">
-                                    <svg class="w-6 h-6 text-blue-500 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.514"></path></svg>
-                                    <span class="text-gray-700"><strong>추천 대상:</strong> 즉각적인 반응이 필요하신 분</span>
-                                </li>
-                            </ul>
+                            <li class="flex items-start">
+                                <svg class="w-6 h-6 text-blue-500 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                                <span class="text-gray-700"><strong>지속 시간:</strong> 약 4~6시간 내외 (강렬하고 짧은 효과)</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-6 h-6 text-blue-500 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.514"></path></svg>
+                                <span class="text-gray-700"><strong>추천 대상:</strong> 즉각적인 반응이 필요하신 분</span>
+                            </li>
+                        </ul>
                     </div>
                     
-                    <!-- 센트립 카드 (기존 이미지 제거됨) -->
                     <div class="bg-white rounded-3xl shadow-md overflow-hidden border-t-4 border-gray-700 p-8 hover:shadow-lg transition-shadow">
                         <div class="mb-6">
                             <h3 class="text-2xl font-black text-gray-800 mb-2">센트립 (CENTRIP)</h3>
@@ -221,45 +297,43 @@
                                 <svg class="w-6 h-6 text-gray-700 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path></svg>
                                 <span class="text-gray-700"><strong>효과 발현:</strong> 서서히 체내에 흡수되어 자연스러운 반응</span>
                             </li>
-                                <li class="flex items-start">
-                                    <svg class="w-6 h-6 text-gray-700 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                                    <span class="text-gray-700"><strong>지속 시간:</strong> 최대 24~36시간 (주말 내내 유지되는 롱타임)</span>
-                                </li>
-                                <li class="flex items-start">
-                                    <svg class="w-6 h-6 text-gray-700 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.514"></path></svg>
-                                    <span class="text-gray-700"><strong>추천 대상:</strong> 시간 제약 없이 여유로운 효과를 원하시는 분</span>
-                                </li>
-                            </ul>
+                            <li class="flex items-start">
+                                <svg class="w-6 h-6 text-gray-700 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                                <span class="text-gray-700"><strong>지속 시간:</strong> 최대 24~36시간 (주말 내내 유지되는 롱타임)</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-6 h-6 text-gray-700 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.514"></path></svg>
+                                <span class="text-gray-700"><strong>추천 대상:</strong> 시간 제약 없이 여유로운 효과를 원하시는 분</span>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- 구매하기 통합 섹션 -->
+        <!-- 구매하기 통합 섹션 (비닉스 /7.webp, 센트립 /6.webp) -->
         <section id="purchase" class="py-20 bg-white">
             <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center mb-16">
                     <h2 class="text-3xl font-bold text-gray-900 mb-4">제품 구매하기</h2>
-                    <p class="text-lg text-gray-600">아래 패키지를 확인하시고 주문 사이트에서 안전하게 결제하세요.</p>
+                    <p class="text-lg text-gray-600">아래 패키지를 확인하시고 주문 안내에 따라 안전하게 신청하세요.</p>
                 </div>
                 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <!-- 비닉스 패키지 -->
                     <div class="bg-white rounded-3xl shadow-xl border-2 border-blue-600 overflow-hidden relative transform transition hover:-translate-y-2">
                         <div class="bg-blue-600 text-white py-4 text-center font-bold text-lg tracking-widest">BEST SELLER</div>
-                        <!-- 제품 이미지 삽입 -->
-                        <img src="/img/7.webp" alt="비닉스 10매 패키지" class="w-full h-56 object-cover border-b border-gray-100">
+                        <img src="/img/7.webp" alt="비닉스 10매 패키지" class="w-full h-56 object-cover border-b border-gray-100" onerror="this.src='https://placehold.co/600x400/ebf5ff/2563eb?text=VINIX+10%2B10+Package'">
                         <div class="p-8 text-center">
-                            <h3 class="text-2xl font-bold text-gray-900 mb-2">비닉스 필름형 패키지</h3>
-                            <p class="text-gray-500 mb-6 font-medium">10매 + 10매 (총 20매)</p>
+                            <h3 class="text-2xl font-bold text-gray-900 mb-2">비닉스필름 10매+10매</h3>
+                            <p class="text-gray-500 mb-6 font-medium">총 20매 구성 패키지</p>
                             <div class="text-4xl font-black text-blue-600 mb-6">180,000<span class="text-xl text-gray-600 font-medium">원</span></div>
                             <ul class="text-left text-gray-600 space-y-3 mb-8 bg-gray-50 p-6 rounded-2xl">
                                 <li class="flex items-center"><svg class="w-5 h-5 mr-3 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> <strong>무료 배송</strong> 혜택 적용</li>
                                 <li class="flex items-center"><svg class="w-5 h-5 mr-3 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> 철저한 <strong>비밀 포장</strong> 배송</li>
                                 <li class="flex items-center"><svg class="w-5 h-5 mr-3 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> 최신 제조일자 상품 발송</li>
                             </ul>
-                            <!-- 외부 사이트로 나가는 유일한 버튼 -->
-                            <a href="https://ssw33.xyz" target="_blank" rel="noopener noreferrer" class="block w-full py-4 px-4 rounded-xl text-lg font-bold text-white bg-blue-600 hover:bg-blue-700 transition-colors shadow-lg">
+                            <a href="#purchase" class="block w-full py-4 px-4 rounded-xl text-lg font-bold text-white bg-blue-600 hover:bg-blue-700 transition-colors shadow-lg">
                                 비닉스 주문하기
                             </a>
                         </div>
@@ -268,19 +342,17 @@
                     <!-- 센트립 패키지 -->
                     <div class="bg-white rounded-3xl shadow-xl border-2 border-gray-700 overflow-hidden relative transform transition hover:-translate-y-2">
                         <div class="bg-gray-700 text-white py-4 text-center font-bold text-lg tracking-widest">STEADY SELLER</div>
-                        <!-- 제품 이미지 삽입 -->
-                        <img src="/img/6.webp" alt="센트립 10매 패키지" class="w-full h-56 object-cover border-b border-gray-100">
+                        <img src="/img/6.webp" alt="센트립 10매 패키지" class="w-full h-56 object-cover border-b border-gray-100" onerror="this.src='https://placehold.co/600x400/f3f4f6/374151?text=CENTRIP+10%2B10+Package'">
                         <div class="p-8 text-center">
-                            <h3 class="text-2xl font-bold text-gray-900 mb-2">센트립 필름형 패키지</h3>
-                            <p class="text-gray-500 mb-6 font-medium">10매 + 10매 (총 20매)</p>
+                            <h3 class="text-2xl font-bold text-gray-900 mb-2">센트립필름 10매+10매</h3>
+                            <p class="text-gray-500 mb-6 font-medium">총 20매 구성 패키지</p>
                             <div class="text-4xl font-black text-gray-900 mb-6">180,000<span class="text-xl text-gray-600 font-medium">원</span></div>
                             <ul class="text-left text-gray-600 space-y-3 mb-8 bg-gray-50 p-6 rounded-2xl">
                                 <li class="flex items-center"><svg class="w-5 h-5 mr-3 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> <strong>무료 배송</strong> 혜택 적용</li>
                                 <li class="flex items-center"><svg class="w-5 h-5 mr-3 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> 철저한 <strong>비밀 포장</strong> 배송</li>
                                 <li class="flex items-center"><svg class="w-5 h-5 mr-3 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> 최신 제조일자 상품 발송</li>
                             </ul>
-                            <!-- 외부 사이트로 나가는 유일한 버튼 -->
-                            <a href="https://ssw33.xyz" target="_blank" rel="noopener noreferrer" class="block w-full py-4 px-4 rounded-xl text-lg font-bold text-white bg-gray-700 hover:bg-gray-800 transition-colors shadow-lg">
+                            <a href="#purchase" class="block w-full py-4 px-4 rounded-xl text-lg font-bold text-white bg-gray-700 hover:bg-gray-800 transition-colors shadow-lg">
                                 센트립 주문하기
                             </a>
                         </div>
@@ -289,7 +361,7 @@
             </div>
         </section>
 
-        <!-- 리뷰 섹션 (SEO에서 '후기 디시' 키워드 대응 및 신뢰성 부여) -->
+        <!-- 디시 후기 섹션 -->
         <section id="reviews" class="py-20 bg-gray-50">
             <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center mb-16">
@@ -298,7 +370,6 @@
                 </div>
                 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <!-- 후기 1 -->
                     <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
                         <div class="flex items-center mb-4">
                             <div class="text-yellow-400 flex text-lg">★★★★★</div>
@@ -311,7 +382,6 @@
                         <div class="text-xs text-gray-400 font-medium">- ㅇㅇ (118.*) 님</div>
                     </div>
 
-                    <!-- 후기 2 -->
                     <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
                         <div class="flex items-center mb-4">
                             <div class="text-yellow-400 flex text-lg">★★★★★</div>
@@ -324,7 +394,6 @@
                         <div class="text-xs text-gray-400 font-medium">- 활력맨 (223.*) 님</div>
                     </div>
 
-                    <!-- 후기 3 -->
                     <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
                         <div class="flex items-center mb-4">
                             <div class="text-yellow-400 flex text-lg">★★★★☆</div>
@@ -340,7 +409,7 @@
             </div>
         </section>
 
-        <!-- FAQ 섹션 (구글은 FAQ 섹션이 있는 문서를 정보성 문서로 판단하여 선호합니다) -->
+        <!-- 자주 묻는 질문 섹션 -->
         <section id="faq" class="py-20 bg-white">
             <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center mb-12">
@@ -352,7 +421,7 @@
                     <div class="border-b border-gray-200 pb-6">
                         <h3 class="text-xl font-bold text-blue-600 mb-3">Q. 구매방법은 어떻게 되나요?</h3>
                         <p class="text-gray-700 leading-relaxed">
-                            A. 본 페이지 상단 혹은 하단에 있는 '구매하기' 영역에서 원하시는 제품(비닉스 또는 센트립)의 주문 버튼을 클릭하시면 공식 주문 페이지(ssw33.xyz)로 연결됩니다. 해당 사이트에서 배송지 정보를 입력하시고 안전하게 결제를 진행하시면 됩니다.
+                            A. 본 페이지 상단 혹은 하단에 있는 '구매하기' 영역에서 원하시는 제품(비닉스 또는 센트립)의 주문 버튼을 클릭하시면 공식 주문 페이지로 연결됩니다. 해당 페이지에서 배송지 정보를 입력하시고 안전하게 결제를 진행하시면 됩니다.
                         </p>
                     </div>
 
@@ -386,9 +455,109 @@
                 </div>
             </div>
         </section>
+
+        <!-- 비닉스 올바른 지식 및 활력 증진 꿀팁 기사 섹션 (3개, 3단 그리드) -->
+        <section class="py-20 bg-gray-50 border-t border-gray-200">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex flex-col md:flex-row justify-between items-center mb-12">
+                    <div>
+                        <h2 class="text-3xl font-bold text-gray-900 mb-2">비닉스를 위한 올바른 지식과 활력 증진 꿀팁</h2>
+                        <p class="text-lg text-gray-600">전문가들이 제안하는 올바른 섭취법과 일상 건강 관리 가이드입니다.</p>
+                    </div>
+                    <div class="mt-4 md:mt-0">
+                        <a href="/blog" class="inline-flex items-center text-blue-600 font-bold hover:text-blue-700 transition-colors">
+                            전체 글 보기 
+                            <svg class="w-5 h-5 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- 기사 1 -->
+                    <article class="bg-white rounded-3xl shadow-sm overflow-hidden border border-gray-100 hover:shadow-md transition-shadow flex flex-col">
+                        <img src="https://placehold.co/600x350/eff6ff/2563eb?text=Vitality+Habit+Guide" alt="활력 증진 꿀팁" class="w-full h-48 object-cover">
+                        <div class="p-6 flex-1 flex flex-col justify-between">
+                            <div>
+                                <span class="text-xs font-bold text-blue-600 uppercase tracking-wider bg-blue-50 px-3 py-1 rounded-full">건강 가이드</span>
+                                <h3 class="text-lg font-bold text-gray-900 mt-4 mb-2">현대 남성을 위한 일상 속 활력 증진 수면 및 식습관 가이드</h3>
+                                <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                                    피로가 누적되기 쉬운 바쁜 현대인들을 위해 체력 회복에 도움을 주는 영양 섭취 방법과 생활 속 루틴을 정리해 드립니다.
+                                </p>
+                            </div>
+                            <div>
+                                <a href="/blog/vitality-habit-guide" class="text-blue-600 font-bold text-sm hover:underline inline-flex items-center">
+                                    자세히 보기 &rarr;
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 기사 2 -->
+                    <article class="bg-white rounded-3xl shadow-sm overflow-hidden border border-gray-100 hover:shadow-md transition-shadow flex flex-col">
+                        <img src="https://placehold.co/600x350/eff6ff/2563eb?text=Film+Type+Storage+Tips" alt="필름형 보관법" class="w-full h-48 object-cover">
+                        <div class="p-6 flex-1 flex flex-col justify-between">
+                            <div>
+                                <span class="text-xs font-bold text-blue-600 uppercase tracking-wider bg-blue-50 px-3 py-1 rounded-full">제품 상식</span>
+                                <h3 class="text-lg font-bold text-gray-900 mt-4 mb-2">필름형 제품의 올바른 보관 및 휴대 시 주의해야 할 점</h3>
+                                <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                                    온도와 습도에 민감할 수 있는 필름 제형의 특성을 이해하고, 언제 어디서나 최상의 상태로 유지하기 위한 올바른 보관 팁을 알아보세요.
+                                </p>
+                            </div>
+                            <div>
+                                <a href="/blog/film-type-storage-tips" class="text-blue-600 font-bold text-sm hover:underline inline-flex items-center">
+                                    자세히 보기 &rarr;
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 기사 3 -->
+                    <article class="bg-white rounded-3xl shadow-sm overflow-hidden border border-gray-100 hover:shadow-md transition-shadow flex flex-col">
+                        <img src="https://placehold.co/600x350/eff6ff/2563eb?text=Weekend+Routine+Tips" alt="주말 루틴 팁" class="w-full h-48 object-cover">
+                        <div class="p-6 flex-1 flex flex-col justify-between">
+                            <div>
+                                <span class="text-xs font-bold text-blue-600 uppercase tracking-wider bg-blue-50 px-3 py-1 rounded-full">라이프스타일</span>
+                                <h3 class="text-lg font-bold text-gray-900 mt-4 mb-2">피로회복과 활력 유지를 위한 주말 루틴 및 건강 관리 팁</h3>
+                                <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                                    주말 동안 에너지를 효율적으로 재충전하고 다가오는 새로운 주를 활기차게 시작하기 위한 필수 건강 관리법을 소개합니다.
+                                </p>
+                            </div>
+                            <div>
+                                <a href="/blog/weekend-routine-tips" class="text-blue-600 font-bold text-sm hover:underline inline-flex items-center">
+                                    자세히 보기 &rarr;
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 전체 평가 및 한줄평 섹션 (Footer 바로 위) -->
+        <section class="py-16 bg-blue-900 text-white">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <span class="inline-block py-1 px-3 rounded-full bg-blue-800 text-blue-200 font-semibold text-sm mb-4">실제 구매 고객 종합 만족도</span>
+                <h2 class="text-3xl font-black mb-6">"지친 일상에 확실한 활력을 더해주는 선택"</h2>
+                <div class="flex flex-wrap justify-center items-center gap-8 mb-8">
+                    <div class="bg-blue-800/60 p-6 rounded-2xl max-w-sm text-left">
+                        <div class="text-yellow-400 mb-2">★★★★★</div>
+                        <p class="text-sm text-blue-100 mb-3">"물 없이 간편하게 섭취할 수 있고 흡수가 빨라서 야외 활동이나 중요한 일정 전에 부담 없이 챙기기 너무 좋습니다."</p>
+                        <span class="text-xs text-blue-300 font-semibold">- 구매고객 k*** 님 (종합 평점 5.0/5.0)</span>
+                    </div>
+                    <div class="bg-blue-800/60 p-6 rounded-2xl max-w-sm text-left">
+                        <div class="text-yellow-400 mb-2">★★★★★</div>
+                        <p class="text-sm text-blue-100 mb-3">"비밀 포장부터 빠른 배송까지 서비스가 매우 체계적이고 만족스럽습니다. 주변 지인들에게도 추천하고 있어요."</p>
+                        <span class="text-xs text-blue-300 font-semibold">- 구매고객 p*** 님 (종합 평점 5.0/5.0)</span>
+                    </div>
+                </div>
+                <div class="text-blue-200 text-sm font-medium">
+                    누적 구매 고객 1,200+명 돌파 | 재구매율 92% 이상
+                </div>
+            </div>
+        </section>
     </main>
 
-    <!-- 시맨틱 태그: footer -->
+    <!-- 푸터 -->
     <footer class="bg-gray-900 text-gray-400 py-12">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8 border-b border-gray-800 pb-8">
@@ -404,7 +573,6 @@
                         <a href="#" class="hover:text-white transition-colors">개인정보처리방침</a>
                         <a href="#" class="hover:text-white transition-colors">환불규정</a>
                     </div>
-                    <!-- 법적 고지 (신뢰도 향상을 위해 필수) -->
                     <div class="text-xs text-gray-500 bg-gray-800 p-4 rounded-lg inline-block text-left">
                         <strong>[주의 안내]</strong><br>
                         본 웹사이트는 합법적인 건강기능식품 정보를 제공합니다.<br>
@@ -419,22 +587,36 @@
         </div>
     </footer>
 
-    <!-- 부드러운 스크롤 및 기타 인터랙션 스크립트 -->
+    <!-- 인터랙션 스크립트 (모바일 메뉴 토글 및 부드러운 스크롤) -->
     <script>
         document.addEventListener('DOMContentLoaded', () => {
+            // 모바일 메뉴 토글
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                });
+            }
+
             // 부드러운 앵커 스크롤 로직
             document.querySelectorAll('a[href^="#"]').forEach(anchor => {
                 anchor.addEventListener('click', function (e) {
-                    e.preventDefault();
                     const targetId = this.getAttribute('href');
                     if (targetId === '#') return;
                     
                     const targetElement = document.querySelector(targetId);
                     if (targetElement) {
+                        e.preventDefault();
                         targetElement.scrollIntoView({
                             behavior: 'smooth',
                             block: 'start'
                         });
+                        // 모바일 메뉴 열려있을 시 닫기
+                        if (mobileMenu && !mobileMenu.classList.contains('hidden')) {
+                            mobileMenu.classList.add('hidden');
+                        }
                     }
                 });
             });
