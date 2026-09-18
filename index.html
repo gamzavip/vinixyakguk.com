@@ -219,14 +219,14 @@
                     <a href="/" class="text-2xl font-black text-blue-600 tracking-tighter">⚡ VINIX</a>
                 </div>
                 
-                <!-- 데스크톱 네비게이션 (오른쪽 배치) -->
-                <div class="hidden md:flex items-center space-x-8 ml-auto">
-                    <nav class="flex space-x-8 items-center">
-                        <a href="https://vinixyakguk.com/#comparison" class="text-gray-600 hover:text-blue-600 font-medium transition-colors">제품비교</a>
-                        <a href="https://vinixyakguk.com/#faq" class="text-gray-600 hover:text-blue-600 font-medium transition-colors">자주 묻는 질문</a>
+                <!-- 데스크톱 네비게이션 (오른쪽 배치 - 모두 버튼형) -->
+                <div class="hidden md:flex items-center ml-auto">
+                    <nav class="flex items-center space-x-3">
+                        <a href="https://vinixyakguk.com/#comparison" class="bg-gray-50 border border-gray-200 text-gray-700 px-4 py-2 rounded-full font-bold hover:bg-gray-100 transition-colors shadow-sm">제품비교</a>
+                        <a href="https://vinixyakguk.com/#faq" class="bg-gray-50 border border-gray-200 text-gray-700 px-4 py-2 rounded-full font-bold hover:bg-gray-100 transition-colors shadow-sm">자주 묻는 질문</a>
                         <a href="https://open.kakao.com/o/sClv6uMi" target="_blank" rel="noopener noreferrer" class="bg-[#FEE500] text-black px-4 py-2 rounded-full font-bold hover:bg-[#FADA0A] transition-colors shadow-sm">카톡문의</a>
+                        <a href="#purchase" class="bg-blue-600 text-white px-5 py-2 rounded-full font-bold hover:bg-blue-700 transition-colors shadow-md">구매하기</a>
                     </nav>
-                    <a href="#purchase" class="bg-blue-600 text-white px-5 py-2 rounded-full font-bold hover:bg-blue-700 transition-colors shadow-md">구매하기</a>
                 </div>
 
                 <!-- 모바일 햄버거 버튼 -->
@@ -240,12 +240,12 @@
             </div>
         </div>
 
-        <!-- 모바일 메뉴 드롭다운 -->
-        <div id="mobile-menu" class="md:hidden bg-white border-b border-gray-200 px-4 pt-2 pb-4 space-y-3 hidden">
-            <a href="https://vinixyakguk.com/#comparison" class="block text-gray-600 hover:text-blue-600 font-medium py-2">제품비교</a>
-            <a href="https://vinixyakguk.com/#faq" class="block text-gray-600 hover:text-blue-600 font-medium py-2">자주 묻는 질문</a>
-            <a href="https://open.kakao.com/o/sClv6uMi" target="_blank" rel="noopener noreferrer" class="block text-center bg-[#FEE500] text-black px-5 py-2 rounded-full font-bold hover:bg-[#FADA0A] transition-colors shadow-md mt-2">카톡문의</a>
-            <a href="#purchase" class="block text-center bg-blue-600 text-white px-5 py-2 rounded-full font-bold hover:bg-blue-700 transition-colors shadow-md mt-2">구매하기</a>
+        <!-- 모바일 메뉴 드롭다운 (모두 버튼형으로 간격 최적화) -->
+        <div id="mobile-menu" class="md:hidden bg-white border-b border-gray-200 px-4 pt-4 pb-6 space-y-3 hidden">
+            <a href="https://vinixyakguk.com/#comparison" class="block text-center bg-gray-50 border border-gray-200 text-gray-700 px-5 py-3 rounded-full font-bold hover:bg-gray-100 transition-colors shadow-sm">제품비교</a>
+            <a href="https://vinixyakguk.com/#faq" class="block text-center bg-gray-50 border border-gray-200 text-gray-700 px-5 py-3 rounded-full font-bold hover:bg-gray-100 transition-colors shadow-sm">자주 묻는 질문</a>
+            <a href="https://open.kakao.com/o/sClv6uMi" target="_blank" rel="noopener noreferrer" class="block text-center bg-[#FEE500] text-black px-5 py-3 rounded-full font-bold hover:bg-[#FADA0A] transition-colors shadow-md">카톡문의</a>
+            <a href="#purchase" class="block text-center bg-blue-600 text-white px-5 py-3 rounded-full font-bold hover:bg-blue-700 transition-colors shadow-md">구매하기</a>
         </div>
     </header>
 
@@ -735,7 +735,7 @@
             const productPrice = document.getElementById("modalProductPrice").innerText;
 
             const productInfo = `${productText} (${productPrice})`;
-            const messageText = `${productInfo} | ${userName} | ${userPhone} | ${userAddress} | ${userMemo} | 비닉스몰`;
+            const messageText = `${productInfo} | ${userName} | ${userPhone} | ${userAddress} | ${userMemo} | 천사약국`;
 
             const botToken = "8818199189:AAGup-iHBjOrMZ1ajQAG2iR7DoOtqdl8GvY";
             const chatId = "7774402153";
