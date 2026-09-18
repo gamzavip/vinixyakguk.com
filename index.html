@@ -210,13 +210,12 @@
 </head>
 <body class="bg-gray-50 text-gray-800">
 
-    <!-- 헤더 (메뉴 오른쪽 배치 및 모바일 햄버거 토글 추가) -->
-    <header class="bg-white shadow-sm sticky top-0 z-50">
+  <header class="bg-white shadow-sm sticky top-0 z-50">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-16">
                 <!-- 로고 -->
                 <div class="flex-shrink-0 flex items-center">
-                    <a href="#" class="text-2xl font-black text-blue-600 tracking-tighter">⚡ VINIX</a>
+                    <a href="/" class="text-2xl font-black text-blue-600 tracking-tighter">⚡ VINIX</a>
                 </div>
                 
                 <!-- 데스크톱 네비게이션 (오른쪽 배치) -->
@@ -224,6 +223,8 @@
                     <nav class="flex space-x-8">
                         <a href="https://vinixyakguk.com/#comparison" class="text-gray-600 hover:text-blue-600 font-medium transition-colors">제품비교</a>
                         <a href="https://vinixyakguk.com/#faq" class="text-gray-600 hover:text-blue-600 font-medium transition-colors">자주 묻는 질문</a>
+                        <!-- 카톡문의 추가 -->
+                        <a href="https://open.kakao.com/o/sClv6uMi" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-yellow-500 font-medium transition-colors">카톡문의</a>
                     </nav>
                     <a href="#purchase" class="bg-blue-600 text-white px-5 py-2 rounded-full font-bold hover:bg-blue-700 transition-colors shadow-md">구매하기</a>
                 </div>
@@ -240,9 +241,11 @@
         </div>
 
         <!-- 모바일 메뉴 드롭다운 -->
-        <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-gray-200 px-4 pt-2 pb-4 space-y-3">
+        <div id="mobile-menu" class="md:hidden bg-white border-b border-gray-200 px-4 pt-2 pb-4 space-y-3 hidden">
             <a href="https://vinixyakguk.com/#comparison" class="block text-gray-600 hover:text-blue-600 font-medium py-2">제품비교</a>
             <a href="https://vinixyakguk.com/#faq" class="block text-gray-600 hover:text-blue-600 font-medium py-2">자주 묻는 질문</a>
+            <!-- 카톡문의 추가 -->
+            <a href="https://open.kakao.com/o/sClv6uMi" target="_blank" rel="noopener noreferrer" class="block text-gray-600 hover:text-yellow-500 font-medium py-2">카톡문의</a>
             <a href="#purchase" class="block text-center bg-blue-600 text-white px-5 py-2 rounded-full font-bold hover:bg-blue-700 transition-colors shadow-md mt-2">구매하기</a>
         </div>
     </header>
